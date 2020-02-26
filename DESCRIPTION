@@ -1,7 +1,7 @@
 Package: kimod
 Type: Package
 Title: A k-tables approach to integrate multiple Omics-Data
-Version: 1.15.0
+Version: 1.15.1
 Date: 2015-12-7
 Author: Maria Laura Zingaretti, Johanna Altair Demey-Zambrano, Jose Luis Vicente-Villardon, Jhonny Rafael Demey
 Maintainer: M L Zingaretti <m.lau.zingaretti@gmail.com>
@@ -21,6 +21,7 @@ Imports: cluster, graphics, Biobase
 Collate: 'ReadData.R' 'DiStatis-Class.R' 'Bootstrap-Class.R' 'SelectVar-Class.R' 'GroupProj-Class.R' 'Auxiliares.R' 'CalculateDist.R' 'ComputeDistances.R'
                  'cbinPad.R' 'DiStatis-DiStatis.R' 'DiStatis-CompPlot.R' 'DiStatis-RVPlot.R' 'DiStatis-PanelPlot.R' 'DiStatis-TrajPlot.R' 'DiStatis-print.R'
                  'DiStatis-Bootstrap.R' 'Bootstrap-BootPlot.R' 'Bootstrap-print.R' 'DiStatis-SelectVar.R' 'SelectVar-print.R' 'SelectVar-Biplot.R'
-                 'GroupProj.R' 'GroupProj-print.R'
+                 'GroupProj.R' 'GroupProj-print.R' 'zzz.R' 
 RoxygenNote: 5.0.1
 NeedsCompilation: no
+PackageStatus: Deprecated
